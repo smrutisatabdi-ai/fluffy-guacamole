@@ -54,7 +54,11 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Babyy please?","Don't do this to me :(","Say yes or else...",];
+      const messages = [  "Aditi, will you go out with me this Valentine’s Day? 💘",
+  "I literally built a website for this moment.",
+  "You can’t say no after this much effort 😭",
+  "Okay but imagine us eating good food together?",
+  "So… is that a yes? 👀❤️"];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
@@ -154,4 +158,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     move();
   }
+
   
