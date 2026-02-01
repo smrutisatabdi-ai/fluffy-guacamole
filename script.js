@@ -88,7 +88,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
   //yes button
   yesButton.addEventListener("click", () => {
-    playSound('./sounds/click.mp3');
+    playSound('./sounds/love.mp3');
     imageDisplay.remove(); 
     responseButtons.style.display = "none"; 
   
@@ -160,3 +160,4 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
